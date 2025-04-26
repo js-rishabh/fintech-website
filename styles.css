@@ -1,0 +1,106 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: #333;
+    color: #120202;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f0e2e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: #4b67bb;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.team {
+    background: #f0f1f3;
+    padding: 2rem 0;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    margin: 0.5rem 0;
+}
+
+.team-member p {
+    color: #241b1b;
+}
+
+.mission, .history {
+    padding: 2rem 0;
+    background: #f0f1f3;
+}
+
+.mission h2, .history h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    background: #0b1e56;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}

@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px;
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.feature-card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 40px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.feature-card img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+.testimonial {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+}

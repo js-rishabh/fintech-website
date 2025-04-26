@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration_container">
+        <h2>Registration Form</h2>
+        <form id="registration_form">
+            <div class="input_group">
+                <label for="pan_number">PAN Card Number:</label>
+                <input type="text" id="pan_number" name="pan_number" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" title="Enter a valid PAN Card number (e.g., ABCDE1234F)" required>
+            </div>
+
+            <div class="input_group">
+                <label for="borrower_name">Borrower Name:</label>
+                <input type="text" id="borrower_name" name="borrower_name" required>
+            </div>
+
+            <div class="input_group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="input_group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input_group">
+                <label for="mobile">Mobile No.:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" title="Enter a 10-digit mobile number" required>
+            </div>
+
+            <div class="input_group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="input_group">
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+
+
+            <div class="input_group terms_group">
+                <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+                <label for="terms_conditions">I agree to the <a href="#" target="_blank">Terms & Conditions</a> & permit Liquiloans (NDX P2P Private Limited) to request, process & utilise my personal data as mentioned in the <a href="#" target="_blank">Privacy Policy</a>.</label>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="error_message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

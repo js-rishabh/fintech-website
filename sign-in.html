@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel = "stylesheet" href="sign-in.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro_section animated_slide_in">
+            <h1>Finfast (P2P Private Limited)</h1>
+            <p>
+                Finfast (P2P Private Limited) is a Peer to Peer Lending platform. The company uses technology to
+                match borrowers and lenders and in the process eliminates the margin which is charged by traditional banks 
+                and NBFCs, thus, making borrowing cheaper and investing a more lucrative opportunity as compared to traditional
+                investment avenues.
+            </p>
+            <ul>
+                <li><a href="../Geek For Geeks/index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="../aboutus/index.html" style="color: white; text-decoration: none;">About us</a></li>
+                <li><a href="../main/borrower.html" style="color: white; text-decoration: none;">Borrow</a></li>
+            </ul>
+        </div>
+
+        <div class="sign_in_container animated_fade_in">
+            <h2 class="slide_in">Sign In</h2>
+            <form id="sign_in_form" class="form_slide_in">
+                <div class="input_group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input_group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="js-input" required>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+            <p id="error_message"></p>
+        </div>
+    </div>
+
+    <script src = "sign-in.js"></script>
+</body>
+</html>
